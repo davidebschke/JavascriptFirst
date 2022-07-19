@@ -1,27 +1,40 @@
-let breite: number= 100;
-let laenge:number =200;
+let breite: number;
+let laenge: number;
 
 
-function produktberechnung(breite,laenge){
-
-  let quadrat=breite*laenge;
-  console.log(quadrat);
+function produktberechnung(breite:number, laenge:number) {
 
 
-
+  console.log(breite * laenge);
 
 
 }
 
-function addieren(breite,laenge){
-
-  let addition=breite+laenge;
-  console.log(addition);
+function addieren(breite:number, laenge:number) {
 
 
-
+  console.log(breite + laenge);
 
 
 }
-addieren(2,5);
-produktberechnung(2,5);
+
+const a= function (name:String){
+
+  console.log("Hallo "+name)
+}
+
+function updateStudent(id)
+{
+
+   if(Student.indexOf(this.id=id)!=null){
+
+
+   }
+
+}
+
+addieren(2, 5);
+produktberechnung(2, 5);
+a("David")
+
+
